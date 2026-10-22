@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "blockgraph",
+	"version": "${version}",
+	"name": "Block Graph",
+	"description": "Выделяйте блоки Shift + двойным ПКМ и стройте между ними разноцветный граф с расстояниями: режим двух ближайших блоков, ручные связи и встроенные настройки по клавише K.",
+	"authors": [
+		"dryn1k stydio"
+	],
+	"license": "MIT",
+	"icon": "assets/blockgraph/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"com.dryn1k.blockgraph.BlockGraph"
+		],
+		"client": [
+			"com.dryn1k.blockgraph.client.BlockGraphClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

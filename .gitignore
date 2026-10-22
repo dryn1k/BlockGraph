@@ -1,0 +1,8 @@
+.gradle/
+build/
+run/
+run-test.log
+run-test.err
+*.iml
+.idea/
+out/
